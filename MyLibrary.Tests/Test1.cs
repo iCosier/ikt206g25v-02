@@ -1,9 +1,7 @@
-namespace MyLibrary.Tests;
-
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyLibrary; // Ensure this matches your library namespace
 
-namespace MyLibrary.Tests
+namespace MyLibrary.Tests //
 {
     [TestClass]
     public class SampleTest
@@ -15,4 +13,5 @@ namespace MyLibrary.Tests
         }
     }
 }
+
 
