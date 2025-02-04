@@ -1,10 +1,18 @@
-﻿namespace MyLibrary.Tests;
+namespace MyLibrary.Tests;
 
-[TestClass]
-public sealed class Test1
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MyLibrary; // Ensure this matches your library namespace
+
+namespace MyLibrary.Tests
 {
-    [TestMethod]
-    public void TestMethod1()
+    [TestClass]
+    public class SampleTest
     {
+        [TestMethod]
+        public void TestExample()
+        {
+            Assert.AreEqual(2, 1 + 1);
+        }
     }
 }
+
