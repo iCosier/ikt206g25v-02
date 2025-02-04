@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 9.0.x  # Ensure this matches your installed .NET version
+          dotnet-version: 9.0.102  # Ensure this matches your installed .NET version
 
       - name: Restore dependencies
         run: dotnet restore
