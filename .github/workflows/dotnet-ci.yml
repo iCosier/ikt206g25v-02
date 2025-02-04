@@ -27,5 +27,5 @@ jobs:
       - name: Build project
         run: dotnet build --configuration Release --no-restore
 
-      - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+      - name: Run tests with explicit project path
+        run: dotnet test MyLibrary.Tests/MyLibrary.Tests.csproj --configuration Debug --verbosity normal
